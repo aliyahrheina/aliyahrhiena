@@ -1,0 +1,10 @@
+C:\Users\Asus\OneDrive\Documents\Alpro\Project UAS\bin\Debug\Project UAS.exe.config
+C:\Users\Asus\OneDrive\Documents\Alpro\Project UAS\bin\Debug\Project UAS.exe
+C:\Users\Asus\OneDrive\Documents\Alpro\Project UAS\bin\Debug\Project UAS.pdb
+C:\Users\Asus\OneDrive\Documents\Alpro\Project UAS\obj\Debug\Project UAS.csproj.AssemblyReference.cache
+C:\Users\Asus\OneDrive\Documents\Alpro\Project UAS\obj\Debug\Project_UAS.Form1.resources
+C:\Users\Asus\OneDrive\Documents\Alpro\Project UAS\obj\Debug\Project_UAS.Properties.Resources.resources
+C:\Users\Asus\OneDrive\Documents\Alpro\Project UAS\obj\Debug\Project UAS.csproj.GenerateResource.cache
+C:\Users\Asus\OneDrive\Documents\Alpro\Project UAS\obj\Debug\Project UAS.csproj.CoreCompileInputs.cache
+C:\Users\Asus\OneDrive\Documents\Alpro\Project UAS\obj\Debug\Project UAS.exe
+C:\Users\Asus\OneDrive\Documents\Alpro\Project UAS\obj\Debug\Project UAS.pdb
