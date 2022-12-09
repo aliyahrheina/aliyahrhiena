@@ -116,6 +116,7 @@
             this.comboBoxMenu.Name = "comboBoxMenu";
             this.comboBoxMenu.Size = new System.Drawing.Size(372, 33);
             this.comboBoxMenu.TabIndex = 0;
+            this.comboBoxMenu.SelectedIndexChanged += new System.EventHandler(this.comboBoxMenu_SelectedIndexChanged);
             // 
             // listBoxInfo
             // 

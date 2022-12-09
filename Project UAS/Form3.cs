@@ -31,20 +31,24 @@ namespace Project_UAS
             arrMenu[0, 1] = "Kebab";
             arrMenu[0, 2] = "Sosis Bakar & Seafood";
             arrMenu[0, 3] = "Toast";
+
             arrMenu[1, 0] = "Banana Choco Chips";
             arrMenu[1, 1] = "Tiramisu ";
             arrMenu[1, 2] = "Strawbery Special";
             arrMenu[1, 3] = "Fruit Coctail";
             arrMenu[1, 4] = "Tuna Pizza";
+
             arrMenu[2, 0] = "Bento 1 : Mix Bento";
             arrMenu[2, 1] = "Bento 2 : Katsu Bento";
             arrMenu[2, 2] = "Bento 3 : Teriyaki Bento";
             arrMenu[2, 3] = "Bento 4 : Crazy Mix";
             arrMenu[2, 4] = "Bento 5 : Blackpepper Bento";
+
             arrMenu[3, 0] = "Ayam Gr Rempah";
             arrMenu[3, 1] = "Bakwan Goreng";
             arrMenu[3, 2] = "Bandeng Presto Goreng";
             arrMenu[3, 3] = "Ayam Goreng Kremes";
+
             arrMenu[4, 0] = "Gado Gado";
             arrMenu[4, 1] = "Lontong Kare";
             arrMenu[4, 2] = "Lontong Pecel";
@@ -65,7 +69,50 @@ namespace Project_UAS
 
         private void buttonPilih_Click(object sender, EventArgs e)
         {
+            comboBoxMenu.Items.Clear();
+            if (comboBoxStand.SelectedItem=="Eat and Great")
+            {
+                for (int menu = 0; menu <= 3; menu++)
+                {
+                    comboBoxMenu.Items.Add(arrMenu[0, menu]);
+                }
+            }
+            else if(comboBoxStand.SelectedItem=="S'Crepes")
+            {
+                for (int menu = 0; menu <= 4; menu++)
+                {
+                    comboBoxMenu.Items.Add(arrMenu[1, menu]);
+                }
+            }
+            else if (comboBoxStand.SelectedItem == "Kakak Adek Bento")
+            {
+                for (int menu = 0; menu <= 4; menu++)
+                {
+                    comboBoxMenu.Items.Add(arrMenu[2, menu]);
+                }
+            }
+            else if (comboBoxStand.SelectedItem == "Lima Roemah Sby")
+            {
+                for (int menu = 0; menu <= 3; menu++)
+                {
+                    comboBoxMenu.Items.Add(arrMenu[3, menu]);
+                }
+            }
+            else
+            {
+                for (int menu = 0; menu <= 3; menu++)
+                {
+                    comboBoxMenu.Items.Add(arrMenu[4, menu]);
+                }
+            }
+        }
 
+        private void comboBoxMenu_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            for(int num = 0; num < 5; num++)
+            {
+                
+            }
         }
     }
 }
