@@ -17,6 +17,16 @@ namespace Project_UAS
             InitializeComponent();
         }
 
-       
+        private void buttonTidak_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void buttonYA_Click(object sender, EventArgs e)
+        {
+            Form3 f4 = new Form3();
+            this.Hide();
+            f4.ShowDialog();
+        }
     }
 }
