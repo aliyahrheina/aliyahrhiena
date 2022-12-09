@@ -33,6 +33,7 @@ namespace Project_UAS
             this.comboBoxStand = new System.Windows.Forms.ComboBox();
             this.groupBoxMenu = new System.Windows.Forms.GroupBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBoxMenu.SuspendLayout();
             this.SuspendLayout();
@@ -73,11 +74,21 @@ namespace Project_UAS
             this.comboBox1.Size = new System.Drawing.Size(262, 33);
             this.comboBox1.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(139, 308);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(59, 25);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Aliya";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1224, 978);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBoxMenu);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
@@ -86,6 +97,7 @@ namespace Project_UAS
             this.groupBox1.ResumeLayout(false);
             this.groupBoxMenu.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -95,6 +107,7 @@ namespace Project_UAS
         private System.Windows.Forms.ComboBox comboBoxStand;
         private System.Windows.Forms.GroupBox groupBoxMenu;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
