@@ -19,11 +19,7 @@ namespace Project_UAS
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            comboBoxStand.Items.Add("S'Crepes");
-            comboBoxStand.Items.Add("Eat & Great");
-            comboBoxStand.Items.Add("Kakak Adek Bento");
-            comboBoxStand.Items.Add("Lima Roemah Sby");
-            comboBoxStand.Items.Add("Gado-Gado Surabaya");
+            
         }
     }
 }
