@@ -32,3 +32,4 @@ C:\Users\Aliyah Rheina\OneDrive\Documents\aliyahrhiena\Project UAS\obj\Debug\Pro
 C:\Users\Aliyah Rheina\OneDrive\Documents\aliyahrhiena\Project UAS\bin\Debug\Project UAS.exe.config
 C:\Users\Aliyah Rheina\OneDrive\Documents\aliyahrhiena\Project UAS\bin\Debug\Project UAS.exe
 C:\Users\Aliyah Rheina\OneDrive\Documents\aliyahrhiena\Project UAS\bin\Debug\Project UAS.pdb
+C:\Users\Asus\OneDrive\Documents\Alpro\UAS\aliyahrhiena\Project UAS\obj\Debug\Project_UAS.Form3.resources

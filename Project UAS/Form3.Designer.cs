@@ -44,18 +44,21 @@
             // 
             this.groupBoxStand.Controls.Add(this.buttonPilih);
             this.groupBoxStand.Controls.Add(this.comboBoxStand);
-            this.groupBoxStand.Location = new System.Drawing.Point(43, 63);
+            this.groupBoxStand.Location = new System.Drawing.Point(57, 79);
+            this.groupBoxStand.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBoxStand.Name = "groupBoxStand";
-            this.groupBoxStand.Size = new System.Drawing.Size(290, 127);
+            this.groupBoxStand.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxStand.Size = new System.Drawing.Size(387, 159);
             this.groupBoxStand.TabIndex = 0;
             this.groupBoxStand.TabStop = false;
             this.groupBoxStand.Text = "Stand";
             // 
             // buttonPilih
             // 
-            this.buttonPilih.Location = new System.Drawing.Point(171, 83);
+            this.buttonPilih.Location = new System.Drawing.Point(228, 104);
+            this.buttonPilih.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonPilih.Name = "buttonPilih";
-            this.buttonPilih.Size = new System.Drawing.Size(91, 38);
+            this.buttonPilih.Size = new System.Drawing.Size(121, 48);
             this.buttonPilih.TabIndex = 1;
             this.buttonPilih.Text = "Pilih";
             this.buttonPilih.UseVisualStyleBackColor = true;
@@ -64,9 +67,10 @@
             // comboBoxStand
             // 
             this.comboBoxStand.FormattingEnabled = true;
-            this.comboBoxStand.Location = new System.Drawing.Point(19, 42);
+            this.comboBoxStand.Location = new System.Drawing.Point(25, 52);
+            this.comboBoxStand.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBoxStand.Name = "comboBoxStand";
-            this.comboBoxStand.Size = new System.Drawing.Size(243, 28);
+            this.comboBoxStand.Size = new System.Drawing.Size(323, 33);
             this.comboBoxStand.TabIndex = 0;
             // 
             // groupBoxMenu
@@ -74,9 +78,11 @@
             this.groupBoxMenu.Controls.Add(this.labelHarga);
             this.groupBoxMenu.Controls.Add(this.btnPilinMenu);
             this.groupBoxMenu.Controls.Add(this.comboBoxMenu);
-            this.groupBoxMenu.Location = new System.Drawing.Point(339, 63);
+            this.groupBoxMenu.Location = new System.Drawing.Point(452, 79);
+            this.groupBoxMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBoxMenu.Name = "groupBoxMenu";
-            this.groupBoxMenu.Size = new System.Drawing.Size(470, 136);
+            this.groupBoxMenu.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBoxMenu.Size = new System.Drawing.Size(627, 170);
             this.groupBoxMenu.TabIndex = 1;
             this.groupBoxMenu.TabStop = false;
             this.groupBoxMenu.Text = "Menu";
@@ -84,17 +90,19 @@
             // labelHarga
             // 
             this.labelHarga.AutoSize = true;
-            this.labelHarga.Location = new System.Drawing.Point(347, 50);
+            this.labelHarga.Location = new System.Drawing.Point(463, 62);
+            this.labelHarga.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelHarga.Name = "labelHarga";
-            this.labelHarga.Size = new System.Drawing.Size(47, 20);
+            this.labelHarga.Size = new System.Drawing.Size(63, 25);
             this.labelHarga.TabIndex = 2;
             this.labelHarga.Text = "Rp. 0";
             // 
             // btnPilinMenu
             // 
-            this.btnPilinMenu.Location = new System.Drawing.Point(351, 89);
+            this.btnPilinMenu.Location = new System.Drawing.Point(468, 111);
+            this.btnPilinMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPilinMenu.Name = "btnPilinMenu";
-            this.btnPilinMenu.Size = new System.Drawing.Size(87, 38);
+            this.btnPilinMenu.Size = new System.Drawing.Size(116, 48);
             this.btnPilinMenu.TabIndex = 1;
             this.btnPilinMenu.Text = "Pilih";
             this.btnPilinMenu.UseVisualStyleBackColor = true;
@@ -103,28 +111,31 @@
             // comboBoxMenu
             // 
             this.comboBoxMenu.FormattingEnabled = true;
-            this.comboBoxMenu.Location = new System.Drawing.Point(29, 45);
+            this.comboBoxMenu.Location = new System.Drawing.Point(39, 56);
+            this.comboBoxMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBoxMenu.Name = "comboBoxMenu";
-            this.comboBoxMenu.Size = new System.Drawing.Size(280, 28);
+            this.comboBoxMenu.Size = new System.Drawing.Size(372, 33);
             this.comboBoxMenu.TabIndex = 0;
             // 
             // listBoxInfo
             // 
             this.listBoxInfo.FormattingEnabled = true;
-            this.listBoxInfo.ItemHeight = 20;
-            this.listBoxInfo.Location = new System.Drawing.Point(43, 222);
+            this.listBoxInfo.ItemHeight = 25;
+            this.listBoxInfo.Location = new System.Drawing.Point(57, 278);
+            this.listBoxInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBoxInfo.Name = "listBoxInfo";
-            this.listBoxInfo.Size = new System.Drawing.Size(766, 264);
+            this.listBoxInfo.Size = new System.Drawing.Size(1020, 329);
             this.listBoxInfo.TabIndex = 2;
             // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(893, 515);
+            this.ClientSize = new System.Drawing.Size(1191, 644);
             this.Controls.Add(this.listBoxInfo);
             this.Controls.Add(this.groupBoxMenu);
             this.Controls.Add(this.groupBoxStand);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form3";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
