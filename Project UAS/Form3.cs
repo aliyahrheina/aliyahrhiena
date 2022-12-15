@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 namespace Project_UAS
 {
@@ -109,10 +110,7 @@ namespace Project_UAS
 
         private void comboBoxMenu_SelectedIndexChanged(object sender, EventArgs e)
         {
-            for(int num = 0; num < 5; num++)
-            {
-                
-            }
+            labelHarga.Text = (arrHarga[comboBoxStand.SelectedIndex][comboBoxMenu.SelectedIndex]).ToString("C0", new CultureInfo("id"));
         }
     }
 }
