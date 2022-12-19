@@ -19,6 +19,16 @@ namespace Project_UAS
         }
         string[,] arrMenu;
         int[][] arrHarga;
+        List<int> listOfPilih = new List<int>();
+        private int TotalHarga(List<int> Harga)
+        {
+            int total = 0;
+            for (int i = 0; i < Harga.Count(); i++)
+            {
+                total += Harga[i];
+            }
+            return total;
+        }
         private void Form3_Load(object sender, EventArgs e)
         {
             comboBoxStand.Items.Add("Eat and Great");
@@ -105,12 +115,25 @@ namespace Project_UAS
 
         private void comboBoxMenu_SelectedIndexChanged(object sender, EventArgs e)
         {
-            labelHarga.Text = (arrHarga[comboBoxStand.SelectedIndex][comboBoxMenu.SelectedIndex]).ToString("C0", new CultureInfo("id"));
+            //labelHarga.Text = (arrHarga[comboBoxStand.SelectedIndex][comboBoxMenu.SelectedIndex]).ToString("C0", new CultureInfo("id"));
+            labelHarga.Text = "Rp. " + arrHarga[comboBoxStand.SelectedIndex][comboBoxMenu.SelectedIndex];
         }
 
         private void btnPesan_Click(object sender, EventArgs e)
         {
             listBoxInfo.Items.Add(comboBoxMenu.SelectedItem + " " + labelHarga.Text );
+            string Label = labelHarga.Text;
+            string[] no = Label.Split(' ');
+
+            listOfPilih.Add(int.Parse(no[1]));
+
+        }
+
+        private void buttonTotal_Click(object sender, EventArgs e)
+        {
+            int Total = TotalHarga(listOfPilih);
+            listBoxInfo.Items.Add("Total pesanan anda Rp." + Total.ToString());
+
         }
     }
 }

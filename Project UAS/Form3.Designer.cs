@@ -127,6 +127,7 @@
             this.buttonTotal.TabIndex = 3;
             this.buttonTotal.Text = "Total";
             this.buttonTotal.UseVisualStyleBackColor = true;
+            this.buttonTotal.Click += new System.EventHandler(this.buttonTotal_Click);
             // 
             // Form3
             // 
