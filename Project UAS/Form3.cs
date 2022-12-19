@@ -18,7 +18,7 @@ namespace Project_UAS
             InitializeComponent();
         }
         string[,] arrMenu;
-        int[][] arrHarga;
+        int[,] arrHarga;
         private void Form3_Load(object sender, EventArgs e)
         {
             comboBoxStand.Items.Add("Eat and Great");
@@ -55,7 +55,7 @@ namespace Project_UAS
             arrMenu[4, 2] = "Lontong Pecel";
             arrMenu[4, 3] = "Lontong Sayur";
 
-            arrHarga = new int[5][];
+            arrHarga = new int[5,5];
             arrHarga[0] = new int[] { 10000, 10000, 10000, 16000 };
             arrHarga[1] = new int[] { 7000, 7000, 8000, 8000, 9000 };
             arrHarga[2] = new int[] { 16000, 16000, 16000, 16000, 16000 };
@@ -105,7 +105,14 @@ namespace Project_UAS
 
         private void comboBoxMenu_SelectedIndexChanged(object sender, EventArgs e)
         {
+<<<<<<< Updated upstream
             labelHarga.Text = (arrHarga[comboBoxStand.SelectedIndex][comboBoxMenu.SelectedIndex]).ToString("C0", new CultureInfo("id"));
+=======
+            if (comboBoxMenu.SelectedItem=="Crofle")
+            {
+                labelHarga.Text=
+            }
+>>>>>>> Stashed changes
         }
 
         private void btnPesan_Click(object sender, EventArgs e)
