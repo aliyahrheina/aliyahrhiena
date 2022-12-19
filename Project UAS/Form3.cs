@@ -63,11 +63,6 @@ namespace Project_UAS
             arrHarga[4] = new int[] { 15000, 15000, 15000, 15000 };
         }
 
-        private void btnPilinMenu_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonPilih_Click(object sender, EventArgs e)
         {
             comboBoxMenu.Items.Clear();
@@ -111,6 +106,11 @@ namespace Project_UAS
         private void comboBoxMenu_SelectedIndexChanged(object sender, EventArgs e)
         {
             labelHarga.Text = (arrHarga[comboBoxStand.SelectedIndex][comboBoxMenu.SelectedIndex]).ToString("C0", new CultureInfo("id"));
+        }
+
+        private void btnPesan_Click(object sender, EventArgs e)
+        {
+            listBoxInfo.Items.Add(comboBoxMenu.SelectedItem + " " + labelHarga.Text );
         }
     }
 }
