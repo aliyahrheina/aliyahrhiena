@@ -21,7 +21,6 @@ C:\Users\Asus\OneDrive\Documents\Alpro\UAS\aliyahrhiena\Project UAS\bin\Debug\Pr
 C:\Users\Asus\OneDrive\Documents\Alpro\UAS\aliyahrhiena\Project UAS\bin\Debug\Project UAS.pdb
 C:\Users\Aliyah Rheina\OneDrive\Documents\aliyahrhiena\Project UAS\obj\Debug\Project UAS.csproj.AssemblyReference.cache
 C:\Users\Aliyah Rheina\OneDrive\Documents\aliyahrhiena\Project UAS\obj\Debug\Project UAS.csproj.SuggestedBindingRedirects.cache
-C:\Users\Aliyah Rheina\OneDrive\Documents\aliyahrhiena\Project UAS\obj\Debug\Project_UAS.Form1.resources
 C:\Users\Aliyah Rheina\OneDrive\Documents\aliyahrhiena\Project UAS\obj\Debug\Project_UAS.Form2.resources
 C:\Users\Aliyah Rheina\OneDrive\Documents\aliyahrhiena\Project UAS\obj\Debug\Project_UAS.Form3.resources
 C:\Users\Aliyah Rheina\OneDrive\Documents\aliyahrhiena\Project UAS\obj\Debug\Project_UAS.Properties.Resources.resources
