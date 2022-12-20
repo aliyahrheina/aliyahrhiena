@@ -19,7 +19,7 @@ namespace Project_UAS.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -63,9 +63,91 @@ namespace Project_UAS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kisspng_desktop_wallpaper_junk_food_image_display_resoluti_5c1b56c6bcadc1_1022467615452955587728 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-desktop-wallpaper-junk-food-image-display-resoluti-5c1b56c6bcadc1.1022467" +
+                        "615452955587728", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Makan {
+            get {
+                object obj = ResourceManager.GetObject("Makan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mAKAN_WELCOME {
+            get {
+                object obj = ResourceManager.GetObject("mAKAN WELCOME", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap makan1 {
+            get {
+                object obj = ResourceManager.GetObject("makan1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap makan2 {
+            get {
+                object obj = ResourceManager.GetObject("makan2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MKN {
+            get {
+                object obj = ResourceManager.GetObject("MKN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_computer_wallpaper_food_yellow_cartoon_hand_drawn_wallpaper_picture_image_1476241 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-computer-wallpaper-food-yellow-cartoon-hand-drawn-wallpaper-picture-image" +
+                        "_1476241", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Screenshot__228_ {
             get {
                 object obj = ResourceManager.GetObject("Screenshot (228)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap stock_vector_background_and_wallpaper_with_cartoon_cookies_1725305677 {
+            get {
+                object obj = ResourceManager.GetObject("stock-vector-background-and-wallpaper-with-cartoon-cookies-1725305677", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
