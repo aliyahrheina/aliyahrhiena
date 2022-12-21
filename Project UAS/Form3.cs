@@ -135,5 +135,16 @@ namespace Project_UAS
             listBoxInfo.Items.Add("Total pesanan anda Rp." + Total.ToString());
 
         }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void buttonClear_Click(object sender, EventArgs e)
+        {
+            listBoxInfo.Items.Clear();
+            listOfPilih.Clear();
+        }
     }
 }

@@ -37,6 +37,8 @@
             this.comboBoxMenu = new System.Windows.Forms.ComboBox();
             this.listBoxInfo = new System.Windows.Forms.ListBox();
             this.buttonTotal = new System.Windows.Forms.Button();
+            this.buttonExit = new System.Windows.Forms.Button();
+            this.buttonClear = new System.Windows.Forms.Button();
             this.groupBoxStand.SuspendLayout();
             this.groupBoxMenu.SuspendLayout();
             this.SuspendLayout();
@@ -138,12 +140,38 @@
             this.buttonTotal.UseVisualStyleBackColor = false;
             this.buttonTotal.Click += new System.EventHandler(this.buttonTotal_Click);
             // 
+            // buttonExit
+            // 
+            this.buttonExit.BackColor = System.Drawing.Color.SandyBrown;
+            this.buttonExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonExit.Location = new System.Drawing.Point(690, 530);
+            this.buttonExit.Name = "buttonExit";
+            this.buttonExit.Size = new System.Drawing.Size(119, 35);
+            this.buttonExit.TabIndex = 4;
+            this.buttonExit.Text = "Exit";
+            this.buttonExit.UseVisualStyleBackColor = false;
+            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
+            // 
+            // buttonClear
+            // 
+            this.buttonClear.BackColor = System.Drawing.Color.SandyBrown;
+            this.buttonClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonClear.Location = new System.Drawing.Point(513, 530);
+            this.buttonClear.Name = "buttonClear";
+            this.buttonClear.Size = new System.Drawing.Size(109, 35);
+            this.buttonClear.TabIndex = 5;
+            this.buttonClear.Text = "Clear";
+            this.buttonClear.UseVisualStyleBackColor = false;
+            this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Project_UAS.Properties.Resources.makan2;
-            this.ClientSize = new System.Drawing.Size(907, 565);
+            this.ClientSize = new System.Drawing.Size(907, 593);
+            this.Controls.Add(this.buttonClear);
+            this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.buttonTotal);
             this.Controls.Add(this.listBoxInfo);
             this.Controls.Add(this.groupBoxMenu);
@@ -169,5 +197,7 @@
         private System.Windows.Forms.Label labelHarga;
         private System.Windows.Forms.ListBox listBoxInfo;
         private System.Windows.Forms.Button buttonTotal;
+        private System.Windows.Forms.Button buttonExit;
+        private System.Windows.Forms.Button buttonClear;
     }
 }
