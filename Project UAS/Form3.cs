@@ -97,7 +97,7 @@ namespace Project_UAS
                     comboBoxMenu.Items.Add(arrMenu[2, menu]);
                 }
             }
-            else if (comboBoxStand.SelectedItem == "Lima Roemah Sby")
+            else if (comboBoxStand.SelectedItem == "Lima Reomah Sby")
             {
                 for (int menu = 0; menu <= 3; menu++)
                 {
